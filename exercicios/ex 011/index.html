@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex 011</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+      <p>veja a mesma imagem em tamanhos diferentes de acordo com o tamanho da tela ou do navegadoor</p>
+    <picture>
+       <source media="(max-width: 750px)" srcset="imagens/foto-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/toto-m.png" type="image/png">
+<img src="imagens/foto-g.png" alt="foto flexivel">
+    </picture>
+<h1>reproduzindo audios</h1>
+
+<p>reproduzindo audio em html5</p>
+
+<audio preload="metadata" controls loop>
+<source src="midia/midia.mp3" type="audio/mpeg">
+<p>infelizmente seu navegador não consegue reproduzir audio,<a href="midia/midia.mp3" download="audio.mp3"> clique aqui para fazer o donwload do audio.</a></p>
+
+<h1> videos.</h1>
+<h2>inserindo videos hospedado localmente</h2>
+<p>este video esta hospedado no meu proprio servidor</p>
+<video width="600" poster="imagens/foto-p.jpg" controls>
+    <source src="midia/video.mp4" type="video/mp4">
+
+</video>
+
+<h2>inserindo videos hospedados no youtube</h2>
+<p>este video esta hospedado no youtube</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h8KXcIedur8?si=daW8O2oIno1HCgtX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p>veja</p>
+</audio>
+</body>
+</html>

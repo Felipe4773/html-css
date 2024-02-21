@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+
+        }
+
+        header{
+            width: 600px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgba(233, 143, 32, 0.5);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px  40px;
+
+        }
+
+        article{
+            background-color: bisque;
+        }
+        article > aside{
+            background-color: rgba(234, 136, 17, 0.68);
+        }
+
+        footer{
+            background-color: rgba(7, 2, 2, 0.612);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0%;
+            
+        }
+        footer > p {
+            margin: 0px;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+      <h1>meu site</h1>
+      <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+      </nav>
+    </header>
+    <main>
+       <section id="assuntos">
+        <p>oakley </p>
+       </section>
+       <section id="notiçias">
+        <article>
+            <h2>tendençias da oakley</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis soluta dicta deleniti, illo aspernatur, qui velit ex repellendus dolor officia, sapiente odit. Hic maxime sequi animi quibusdam laudantium nemo exercitationem?</p>
+           <aside>
+              <p>artigo escrito por -----</p>
+           </aside>
+        </article>
+        <article>
+
+        </article>
+       </section>
+    </main>
+    <footer>
+      <p>desenvolvido por felipe vieira</p>
+    </footer>
+</body>
+</html>
